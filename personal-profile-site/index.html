@@ -22,29 +22,47 @@
     <main>
         <section id="about">
             <h2>About Me</h2>
-            <p>Hello! I'm a passionate developer who loves creating amazing web experiences.</p>
+            <p>Hello! I'm Joanne Taggart, a passionate software engineer with a focus on web development and AI. I love creating innovative solutions and bringing ideas to life through code.</p>
         </section>
 
         <section id="skills">
             <h2>Skills</h2>
-            <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>JavaScript</li>
-                <li>Responsive Design</li>
-            </ul>
+            <div class="skill">
+                <span>HTML5</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>CSS3</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>JavaScript</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>Responsive Design</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 95%;"></div>
+                </div>
+            </div>
         </section>
 
         <section id="projects">
             <h2>Projects</h2>
             <div class="project-grid">
                 <div class="project">
-                    <h3>Project 1</h3>
-                    <p>Description of project 1</p>
+                    <h3>Personal Profile Site</h3>
+                    <p>A responsive personal website built with HTML and CSS, showcasing my skills and projects.</p>
                 </div>
                 <div class="project">
-                    <h3>Project 2</h3>
-                    <p>Description of project 2</p>
+                    <h3>Jira Weekly Report Generator</h3>
+                    <p>An automated tool that generates weekly reports from Jira data, streamlining project management processes.</p>
                 </div>
             </div>
         </section>
@@ -53,9 +71,15 @@
             <h2>Contact</h2>
             <p>Get in touch with me:</p>
             <ul>
-                <li>Email: your.email@example.com</li>
+                <li>Email: joanne.taggart@telus.com</li>
                 <li>GitHub: <a href="https://github.com/j-taggart">j-taggart</a></li>
             </ul>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
         </section>
     </main>
 
